@@ -10,3 +10,12 @@ Les colonnes générées automatiquement sont :
 
 - `id` : créée par `$table->id();`
 - `created_at` et `updated_at` : créées par `$table->timestamps();`
+q6 : Au caractère Ligne:2 : 17
++ Ticket::create(['name' => 'Lina', 'topic' => 'Git']);
++                 ~
+Nom de type manquant après « [ ».
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorR 
+   ecordException
+    + FullyQualifiedErrorId : MissingTypename
+  
+  
